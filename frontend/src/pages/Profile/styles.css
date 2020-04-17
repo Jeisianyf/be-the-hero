@@ -1,0 +1,102 @@
+.profile-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header span {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+header img {
+    height: 75px;
+}
+
+header .button {
+    width: 220px;
+    margin-left: auto;
+    margin-top: 0;
+    transition: 0.2s;
+}
+
+header .button:hover {
+    -webkit-transform: scale(1.06);
+    background-color: #fff;
+    font-weight: bold;
+}
+
+header button {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background: transparent;
+    margin-left: 16px;
+    transition: 0.2s;
+}
+
+header button:hover {
+    -webkit-transform: scale(1.06);
+}
+
+.profile-container h1 {
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.profile-container ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas que vão ocupar o mesmo espaço */
+    grid-gap: 30px; /* tanto vertical quanto horizontal */
+    list-style: none; /* tira o pontinho de item */
+}
+
+.profile-container ul li {
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 1px 2px 12px -8px #333333;
+    transition: 0.2s;
+}
+
+.profile-container ul li:hover {
+    -webkit-transform: scale(1.02);
+}
+
+.profile-container ul li strong {
+    display: block;
+    margin-bottom: 10px;
+    color: #41414d;
+}
+
+.profile-container ul li strong:not(:first-child) { /* para todos os strongs menos o primeiro */
+    margin-top: 32px;
+}
+
+.profile-container ul li p {
+    color: #737380;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.profile-container ul li button {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border: none;
+    background: transparent;
+}
+
+.profile-container ul li button:hover {
+    opacity: 0.75;
+   /* -webkit-transform: scale(1.06); */
+}
+

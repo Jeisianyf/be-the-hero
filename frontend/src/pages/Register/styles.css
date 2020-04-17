@@ -1,0 +1,58 @@
+.register-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 100%;
+    padding: 62px;
+    background: #f0f0f5;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    max-width: 433px;
+}
+
+section h1 {
+    margin: 64px 0 22px;
+    font-size: 30px;
+}
+
+section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 23px;
+}
+
+.content form {
+    width: 100%;
+    max-width: 450px;
+}
+
+.content form input {
+    margin-top: 3px;
+}
+
+.content form .input-group {
+    display: flex;
+}
+
+.content form .input-group input + input {
+    margin-left: 8px;
+}
+
+svg {
+    margin-right: 2px;
+    margin-top: 1px;
+}
+
