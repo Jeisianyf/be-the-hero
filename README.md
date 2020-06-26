@@ -27,4 +27,4 @@ A aplicação tem o objetivo de ajudar as ONGs a encontrar usuários no qual pod
 
 ![Caso adicionado](https://github.com/Jeisianyf/omnistack11/blob/master/cases.jpg)
 
-Link para o post do Linkedin: https://www.linkedin.com/feed/update/urn:li:activity:6661777371160428544/
+[Post no Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:6661777371160428544/)
